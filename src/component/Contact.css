@@ -1,0 +1,136 @@
+.container {
+  margin: 10% auto;
+  width: 50%;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.user {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  font-size: 12px;
+}
+
+.widthBy2 {
+  width: 49%;
+}
+.user input {
+  height: 27px;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.user2 {
+  font-size: 12px;
+  padding-bottom: 11px;
+}
+.user2 input {
+  height: 27px;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.widthBy4 {
+  width: 100%;
+}
+.user1 {
+  width: 100.7%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 7px;
+}
+.radioSection {
+  font-size: 12px;
+}
+.roundedDiv {
+  height: 27px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 49%;
+}
+.radioButton {
+  padding: 4px 5px 0 0 !important;
+  display: flex;
+}
+.radioButton input {
+  margin-left: 30px;
+  accent-color: #0f7c6a;
+}
+.radioButton label {
+  padding-left: 10px;
+}
+.user3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  font-size: 12px;
+}
+.user3 textarea {
+  height: 80px;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.widthBy5 {
+  width: 100%;
+}
+.check {
+  padding: 20px 0;
+}
+.check input {
+  accent-color: #0f7c6a;
+}
+.check form label {
+  font-size: 12px;
+  padding-left: 17px;
+}
+.btn {
+  margin-bottom: 30px;
+}
+.btn button {
+  height: 40px;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: #0f7c6a;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 550px) {
+  .container {
+    width: 80%;
+  }
+  .user {
+    display: block;
+    width: 203%;
+  }
+  .user input {
+    padding-top: 17px;
+  }
+  .user2 input {
+    padding-top: 17px;
+  }
+  .user1 {
+    display: block;
+    width: 205.7%;
+  }
+  .roundedDiv {
+    padding-top: 17px;
+  }
+  .radioButton {
+    padding: 0px 5px 0 0 !important;
+  }
+  .small {
+    margin-top: 30px;
+  }
+}
