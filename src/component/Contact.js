@@ -18,7 +18,7 @@ const Contact = () => {
                 <input type="text" />
               </form>
             </div>
-            <div className="widthBy2">
+            <div className="widthBy2 big">
               <form>
                 <label>
                   Last Name <span>*</span>

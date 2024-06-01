@@ -136,4 +136,7 @@ span {
   .small {
     margin-top: 30px;
   }
+  .big {
+    padding-top: 10px;
+  }
 }
