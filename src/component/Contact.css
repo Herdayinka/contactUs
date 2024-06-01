@@ -118,20 +118,20 @@ span {
     width: 203%;
   }
   .user input {
-    padding-top: 17px;
+    height: 45px;
   }
   .user2 input {
-    padding-top: 17px;
+    height: 45px;
   }
   .user1 {
     display: block;
     width: 205.7%;
   }
   .roundedDiv {
-    padding-top: 17px;
+    height: 45px;
   }
   .radioButton {
-    padding: 0px 5px 0 0 !important;
+    padding: 14px 5px 0 0 !important;
   }
   .small {
     margin-top: 30px;

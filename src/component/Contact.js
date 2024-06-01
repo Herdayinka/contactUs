@@ -93,7 +93,9 @@ const Contact = () => {
                 name="options"
                 value="Option 1"
               />
-              <label>I consent to being contracted by the team *</label>
+              <label>
+                I consent to being contracted by the team <span>*</span>
+              </label>
             </form>
           </div>
           <div className="btn">
