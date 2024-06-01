@@ -11,14 +11,18 @@ const Contact = () => {
           <div className="user">
             <div className="widthBy2">
               <form>
-                <label>First Name *</label>
+                <label>
+                  First Name <span>*</span>
+                </label>
                 <br />
                 <input type="text" />
               </form>
             </div>
             <div className="widthBy2">
               <form>
-                <label>Last Name *</label>
+                <label>
+                  Last Name <span>*</span>
+                </label>
                 <br />
                 <input type="text" />
               </form>
@@ -28,7 +32,9 @@ const Contact = () => {
           <div className="user2">
             <div className="widthBy4">
               <form>
-                <label>Email Address *</label>
+                <label>
+                  Email Address <span>*</span>
+                </label>
                 <br />
                 <input type="text" />
               </form>
@@ -37,7 +43,9 @@ const Contact = () => {
 
           <div className="radioSection">
             <section>
-              <label>Query Type *</label>
+              <label>
+                Query Type <span>*</span>
+              </label>
             </section>
             <div className="user1">
               <div className="roundedDiv">
@@ -69,7 +77,9 @@ const Contact = () => {
           <div className="user3">
             <div className="widthBy5">
               <form>
-                <label>Message *</label>
+                <label>
+                  Message <span>*</span>
+                </label>
                 <br />
                 <textarea type="text" />
               </form>

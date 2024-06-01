@@ -17,6 +17,9 @@
 .widthBy2 {
   width: 49%;
 }
+span {
+  color: #0f7c6a;
+}
 .user input {
   height: 27px;
   width: 100%;
