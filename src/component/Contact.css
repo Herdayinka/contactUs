@@ -93,7 +93,7 @@ span {
 }
 .check form label {
   font-size: 12px;
-  padding-left: 17px;
+  padding-left: 20px;
 }
 .btn {
   margin-bottom: 30px;
@@ -138,5 +138,8 @@ span {
   }
   .big {
     padding-top: 10px;
+  }
+  .radioButton input {
+    margin-top: 2px;
   }
 }

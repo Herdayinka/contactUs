@@ -1,10 +1,9 @@
 import React from "react";
 import Contact from "./component/Contact";
 
-
 const App = () => {
   return (
-    <div>
+    <div style={{ overflowX: "hidden" }}>
       <Contact />
     </div>
   );
